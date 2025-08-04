@@ -28,7 +28,12 @@ export const translations = {
   ceoDescription: "With over 10 years of experience in renewable energy, our CEO leads the company with a vision for sustainable future and innovative solar solutions.",
   ceoLocation: "Mahdia, Tunisia",
   ceoEmail: "ceo@yourcompany.com",
-  ceoPhone: "+216 XX XXX XXX"
+  ceoPhone: "+216 XX XXX XXX",
+  stats: {
+    yearsExperience: "Years Experience",
+    projectsCompleted: "Projects Completed",
+    clientSatisfaction: "Client Satisfaction"
+  }
     },
     services: {
       title: "Our Services",
@@ -113,7 +118,12 @@ export const translations = {
   ceoDescription: "Avec plus de 10 ans d'expérience dans les énergies renouvelables, notre PDG dirige l'entreprise avec une vision d'un avenir durable et de solutions solaires innovantes.",
   ceoLocation: "Mahdia, Tunisie",
   ceoEmail: "ceo@yourcompany.com",
-  ceoPhone: "+216 XX XXX XXX"
+  ceoPhone: "+216 XX XXX XXX",
+  stats: {
+    yearsExperience: "Années d'Expérience",
+    projectsCompleted: "Projets Réalisés",
+    clientSatisfaction: "Satisfaction Client"
+  }
 
     },
     services: {
@@ -198,7 +208,12 @@ export const translations = {
   ceoDescription: "مع أكثر من 10 سنوات من الخبرة في الطاقة المتجددة، يقود مديرنا التنفيذي الشركة برؤية لمستقبل مستدام وحلول طاقة شمسية مبتكرة.",
   ceoLocation: "المهدية، تونس",
   ceoEmail: "ceo@yourcompany.com",
-  ceoPhone: "+216 XX XXX XXX"
+  ceoPhone: "+216 XX XXX XXX",
+  stats: {
+    yearsExperience: "سنوات الخبرة",
+    projectsCompleted: "المشاريع المنجزة",
+    clientSatisfaction: "رضا العملاء"
+  }
     },
     services: {
       title: "خدماتنا",

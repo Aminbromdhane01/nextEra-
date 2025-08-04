@@ -36,15 +36,21 @@ export const CompanySection = ({ language }: CompanySectionProps) => {
               <div className="grid grid-cols-3 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold mb-2">5+</div>
-                  <div className="text-sm opacity-90">Years Experience</div>
+                  <div className="text-sm opacity-90">
+                    {t.company.stats.yearsExperience}
+                  </div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold mb-2">50+</div>
-                  <div className="text-sm opacity-90">Projects Completed</div>
+                  <div className="text-sm opacity-90">
+                    {t.company.stats.projectsCompleted}
+                  </div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold mb-2">98%</div>
-                  <div className="text-sm opacity-90">Client Satisfaction</div>
+                  <div className="text-sm opacity-90">
+                    {t.company.stats.clientSatisfaction}
+                  </div>
                 </div>
               </div>
             </div>
