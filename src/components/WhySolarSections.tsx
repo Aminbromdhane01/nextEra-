@@ -85,21 +85,27 @@ export const WhySolarSection = ({ language }: WhySolarSectionProps) => {
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold text-primary mb-2">25+</div>
-              <div className="text-sm text-muted-foreground">Year Warranty</div>
+              <div className="text-sm text-muted-foreground">
+                {t.company.stats.yearWarranty}
+              </div>
             </div>
             <div>
               <div className="text-4xl font-bold text-accent mb-2">90%</div>
               <div className="text-sm text-muted-foreground">
-                Cost Reduction
+                {t.company.stats.costReduction}
               </div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">30%</div>
-              <div className="text-sm text-muted-foreground">Tax Credits</div>
+              <div className="text-sm text-muted-foreground">
+                {t.company.stats.taxCredits}
+              </div>
             </div>
             <div>
               <div className="text-4xl font-bold text-secondary mb-2">0</div>
-              <div className="text-sm text-muted-foreground">Emissions</div>
+              <div className="text-sm text-muted-foreground">
+                {t.company.stats.emissions}
+              </div>
             </div>
           </div>
         </div>

@@ -32,7 +32,11 @@ export const translations = {
   stats: {
     yearsExperience: "Years Experience",
     projectsCompleted: "Projects Completed",
-    clientSatisfaction: "Client Satisfaction"
+    clientSatisfaction: "Client Satisfaction",
+      yearWarranty: "Year Warranty",
+    costReduction: "Cost Reduction",
+    taxCredits: "Tax Credits",
+    emissions: "Emissions",
   }
     },
     services: {
@@ -122,7 +126,12 @@ export const translations = {
   stats: {
     yearsExperience: "Années d'Expérience",
     projectsCompleted: "Projets Réalisés",
-    clientSatisfaction: "Satisfaction Client"
+    clientSatisfaction: "Satisfaction Client",
+     yearWarranty: "Années de garantie",
+    costReduction: "Réduction des coûts",
+    taxCredits: "Crédits d'impôt",
+    emissions: "Émissions"
+    
   }
 
     },
@@ -212,7 +221,11 @@ export const translations = {
   stats: {
     yearsExperience: "سنوات الخبرة",
     projectsCompleted: "المشاريع المنجزة",
-    clientSatisfaction: "رضا العملاء"
+    clientSatisfaction: "رضا العملاء",
+     yearWarranty: "سنوات ضمان",
+    costReduction: "تخفيض التكاليف",
+    taxCredits: "اعتمادات ضريبية",
+  emissions: "انبعاثات"
   }
     },
     services: {

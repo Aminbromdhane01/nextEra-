@@ -36,6 +36,8 @@ export const Header = ({ language, onLanguageChange }: HeaderProps) => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-background/95 backdrop-blur-sm shadow-md"
+          : isMenuOpen
+          ? "bg-background/95 backdrop-blur-sm shadow-md"
           : "bg-transparent"
       }`}
     >
@@ -47,28 +49,39 @@ export const Header = ({ language, onLanguageChange }: HeaderProps) => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav
+            className={`hidden md:flex items-center space-x-8 
+          `}
+          >
             <button
               onClick={() => scrollToSection("company")}
-              className="text-foreground hover:text-secondary transition-colors font-bold cursor-pointer"
+              className={`${
+                isScrolled ? "text-black" : "text-white"
+              } text-foreground hover:text-secondary transition-colors font-bold cursor-pointer`}
             >
               {t.nav.company}
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-foreground hover:text-secondary transition-colors font-bold cursor-pointer"
+              className={`${
+                isScrolled ? "text-black" : "text-white"
+              } text-foreground hover:text-secondary transition-colors font-bold cursor-pointer`}
             >
               {t.nav.services}
             </button>
             <button
               onClick={() => scrollToSection("why-solar")}
-              className="text-foreground hover:text-secondary transition-colors font-bold cursor-pointer"
+              className={`${
+                isScrolled ? "text-black" : "text-white"
+              } text-foreground hover:text-secondary transition-colors font-bold cursor-pointer`}
             >
               {t.nav.whySolar}
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="text-foreground hover:text-secondary transition-colors font-bold cursor-pointer"
+              className={`${
+                isScrolled ? "text-black" : "text-white"
+              } text-foreground hover:text-secondary transition-colors font-bold cursor-pointer`}
             >
               {t.nav.contact}
             </button>
